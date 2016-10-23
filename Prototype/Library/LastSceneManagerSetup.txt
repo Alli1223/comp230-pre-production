@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/protopewpew.unity
+  isLoaded: 1
+  isActive: 1
