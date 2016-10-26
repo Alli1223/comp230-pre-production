@@ -1,7 +1,5 @@
 #Comp230 - Game Component Proposal
 
-(possibly subject to change based on the BA game choice)
-
 ##Multiplayer component Proposal 
 
 ###What is the product?
@@ -21,7 +19,6 @@ The target Audience would be people who enjoy playing games with their friends o
 ###What are the unique selling points?
 
 * Could have some form of team combo mechanics, where the players can combine abilities.
-
 
 ###Is the scope appropriate for the product development time-frame?
 I believe with using the unity engine and possibly some third-party software this will be achievable. 
