@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
 //Author: Kate Georgiou 20/9/16 Desc: Basic character movement for prototypes.
 //This script will obviously need to be attached to the player game object. However it does need to be better optimised so that the player follows the camera direction they are facing.
 //Make sure to tag any floors or surfaces that the player will be walking on as 'Floor' so the script can find them.
 
-public class BasicMovement : MonoBehaviour
+public class BasicMovement : NetworkBehaviour
 {
 
     public float speed = 5; //can be editied in the editor without being able to be acssessed by other scripts.
@@ -27,6 +28,11 @@ public class BasicMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (!isLocalPlayer)
+        {
+            return;
+        }
+
         if (UniSelect.inst.selectedObject == this.gameObject)
         {
             if (Input.GetKey(KeyCode.W))
