@@ -2,7 +2,7 @@
 using UnityEngine.Networking;
 using System.Collections;
 
-public class UniSelect : NetworkBehaviour
+public class UniSelect : MonoBehaviour
 {
 
     public static UniSelect inst;

@@ -30,10 +30,11 @@ public class BasicMovement : NetworkBehaviour
     {
         if (!isLocalPlayer)
         {
+            Debug.Log("test");
             return;
         }
 
-        if (UniSelect.inst.selectedObject == this.gameObject)
+        if(UniSelect.inst.selectedObject == this.gameObject)
         {
             if (Input.GetKey(KeyCode.W))
             {
