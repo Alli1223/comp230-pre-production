@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\Prototype 3\CameraSwtiching.cs" />
     <Compile Include="Assets\Scripts\Prototype 3\CameraTransform.cs" />
     <Compile Include="Assets\Scripts\Prototype 3\EnergyScript.cs" />
+    <Compile Include="Assets\Scripts\Prototype 3\Networking\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Prototype 3\PlayerWeapon.cs" />
     <Compile Include="Assets\Scripts\Prototype 3\RaycastGun.cs" />
     <Compile Include="Assets\Scripts\Prototype 3\TimeController.cs" />

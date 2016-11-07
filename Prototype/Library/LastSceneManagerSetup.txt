@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/protopewpew.unity
+- path: C:/Users/Alastair/Desktop/L2_Red10/Assets/map.unity
   isLoaded: 1
   isActive: 1

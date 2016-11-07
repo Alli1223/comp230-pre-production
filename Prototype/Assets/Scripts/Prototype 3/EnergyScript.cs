@@ -36,7 +36,7 @@ public class EnergyScript : MonoBehaviour {
         {
             energy -= energyDrain * Time.deltaTime;
         }
-        Debug.Log(energy);
+        //Debug.Log(energy);
         // }
         if (energy <= 0)
         {

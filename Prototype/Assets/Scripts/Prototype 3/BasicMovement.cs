@@ -30,33 +30,31 @@ public class BasicMovement : NetworkBehaviour
     {
         if (!isLocalPlayer)
         {
-            Debug.Log("test");
-            return;
-        }
+            if (UniSelect.inst.selectedObject == this.gameObject)
+            {
 
-        if(UniSelect.inst.selectedObject == this.gameObject)
-        {
-            if (Input.GetKey(KeyCode.W))
-            {
-                rb.velocity = cam.gameObject.transform.forward * speed;
+                if (Input.GetKey(KeyCode.W))
+                {
+                    rb.velocity = cam.gameObject.transform.forward * speed;
+                    Jump();
+                }
+                if (Input.GetKey(KeyCode.S))
+                {
+                    rb.velocity = cam.gameObject.transform.forward * -speed;
+                    Jump();
+                }
+                if (Input.GetKey(KeyCode.A))
+                {
+                    rb.velocity = cam.gameObject.transform.right * -speed;
+                    Jump();
+                }
+                if (Input.GetKey(KeyCode.D))
+                {
+                    rb.velocity = cam.gameObject.transform.right * speed;
+                    Jump();
+                }
                 Jump();
             }
-            if (Input.GetKey(KeyCode.S))
-            {
-                rb.velocity = cam.gameObject.transform.forward * -speed;
-                Jump();
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                rb.velocity = cam.gameObject.transform.right * -speed;
-                Jump();
-            }
-            if (Input.GetKey(KeyCode.D))
-            {
-                rb.velocity = cam.gameObject.transform.right * speed;
-                Jump();
-            }
-            Jump();
         }
 
     }
@@ -81,4 +79,5 @@ public class BasicMovement : NetworkBehaviour
             Grounded = false;
         }
     }
+    
 }
