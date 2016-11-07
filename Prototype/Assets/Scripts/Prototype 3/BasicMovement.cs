@@ -23,13 +23,16 @@ public class BasicMovement : NetworkBehaviour
     void Start()
     {
         rb = this.gameObject.GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         if (!isLocalPlayer)
         {
+
+            OnStartLocalPlayer();
             if (UniSelect.inst.selectedObject == this.gameObject)
             {
 
@@ -56,8 +59,9 @@ public class BasicMovement : NetworkBehaviour
                 Jump();
             }
         }
-
     }
+
+    
     void Jump()
     {
         if (Input.GetKeyDown(KeyCode.Space) && Grounded == true && abilityToJump == true)
@@ -79,5 +83,9 @@ public class BasicMovement : NetworkBehaviour
             Grounded = false;
         }
     }
-    
+
+    public override void OnStartLocalPlayer()
+    {
+        GetComponent<MeshRenderer>().material.color = Color.yellow;
+    }
 }
