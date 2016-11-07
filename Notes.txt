@@ -1,0 +1,3 @@
+Using the Network lobby created by unity as a template for the network lobby manager
+https://www.assetstore.unity3d.com/en/#!/content/41836
+

@@ -38,6 +38,23 @@
 /[Ll]ibrary/
 sysinfo.txt
 *.stackdump
+$PROJDIR
+
+obj
+Temp
+.suo
+.user
+
+$PROJDIR/Temp/
+ $PROJDIR/Library/
+ $PROJDIR/Obj/
+ 
+ *.csproj
+ *.unityproj
+ *.sln
+ *.user
+ *.userprefs
+ *.DS_store
  
 # ============================================= #
 # Visual Studio / MonoDevelop / Rider generated #
