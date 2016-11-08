@@ -108,7 +108,9 @@ namespace Prototype.NetworkLobby
             CheckRemoveButton();
 
             if (playerColor == Color.white)
+            {
                 CmdColorChange();
+            }
 
             ChangeReadyButtonColor(JoinColor);
 
@@ -150,6 +152,7 @@ namespace Prototype.NetworkLobby
             removePlayerButton.interactable = localPlayerCount > 1;
         }
 
+        // If the player is ready Don't let them change player colour
         public override void OnClientReady(bool readyState)
         {
             if (readyState)
@@ -162,6 +165,9 @@ namespace Prototype.NetworkLobby
                 readyButton.interactable = false;
                 colorButton.interactable = false;
                 nameInput.interactable = false;
+
+                // Set the player colour to the selected player lobby colour
+               CharacterMovement.playerColour = playerColor; 
             }
             else
             {
@@ -193,6 +199,7 @@ namespace Prototype.NetworkLobby
         {
             playerColor = newColor;
             colorButton.GetComponent<Image>().color = newColor;
+            
         }
 
         //===== UI Handler
@@ -236,6 +243,7 @@ namespace Prototype.NetworkLobby
         {
             LobbyManager.s_Singleton.countdownPanel.UIText.text = "Match Starting in " + countdown;
             LobbyManager.s_Singleton.countdownPanel.gameObject.SetActive(countdown != 0);
+            
         }
 
         [ClientRpc]
@@ -246,6 +254,8 @@ namespace Prototype.NetworkLobby
 
         //====== Server Command
 
+
+            // Change the players colour to a colour that hasn't already been chosen
         [Command]
         public void CmdColorChange()
         {
@@ -285,6 +295,8 @@ namespace Prototype.NetworkLobby
             playerColor = Colors[idx];
         }
 
+
+        // Change the players name
         [Command]
         public void CmdNameChanged(string name)
         {

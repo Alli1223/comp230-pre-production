@@ -20,29 +20,29 @@ public class CharacterMovement : NetworkBehaviour
     private Vector3 lastPosition = Vector3.zero;
     UnitInfo UI;
 
-
+    // Stores the players colour
+    public static Color playerColour;
 
 
     void Start()
     {
         control = GetComponent<CharacterController>();
         UI = GetComponent<UnitInfo>();
+        GetComponent<MeshRenderer>().material.color = playerColour;
     }
 
     void FixedUpdate()
     {
-     // if (UnitManager.inst.GetSelectedUnit() == this.gameObject)
-      //  {
-            canMove = true;
+        // if (UnitManager.inst.GetSelectedUnit() == this.gameObject)
+        //  {
+        canMove = true;
 
-        }
-      //  else canMove = false; }
+    }
+    //  else canMove = false; }
 
     // Update is called once per frame
     void Update()
     {
-
-
         if (UI.GetInfo("energy") > 0)
         {
             if (control.isGrounded /* && canMove == true*/)

@@ -11,7 +11,7 @@ public class Switch : NetworkBehaviour
     [SerializeField]
     private Camera firstPerson;
     [SerializeField]
-    private Camera tactCam;
+    private Camera TacticalCamera;
     [SerializeField]
     private GameObject player;
 
@@ -24,14 +24,14 @@ public class Switch : NetworkBehaviour
     private void Awake() //Initialise the variable
     {
         inst = this;
-        tactCam.enabled = false;
+        TacticalCamera.enabled = false;
     }
 
     public override void OnStartLocalPlayer()
     {
         firstPerson = GetComponent<Camera>();
         StartCoroutine(delayedCode());
-        tactCam.enabled = true;
+        TacticalCamera.enabled = true;
         firstPerson.enabled = false;
         //moved to onstartlocalplayer
     }
@@ -48,7 +48,7 @@ public class Switch : NetworkBehaviour
     {
         if (unitsLeftBeforeSwitch == 0) //If no units are left to control before switch, then switch
         {
-            tactCam.enabled = true;
+            TacticalCamera.enabled = true;
             //firstPerson.enabled = false;
 
             //Switch the player turn
@@ -85,7 +85,7 @@ public class Switch : NetworkBehaviour
 
     public Camera GetTacticalCamera() //Get the tactical camera without exposing variables
     {
-        return tactCam;
+        return TacticalCamera;
     }
 
     public void MoveCameraToSelectedUnit()
@@ -95,7 +95,7 @@ public class Switch : NetworkBehaviour
         firstPerson.transform.parent = null; //Unparent the camera from the old object
         firstPerson.transform.parent = UnitManager.inst.GetSelectedUnit().transform; //Parent it with the selected object
 
-        tactCam.enabled = false; //Disable the tactical camera
+        TacticalCamera.enabled = false; //Disable the tactical camera
         firstPerson.enabled = true; //Enable the tactical camera
     }
 
