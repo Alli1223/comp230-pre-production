@@ -55,6 +55,9 @@ $PROJDIR/Temp/
  *.user
  *.userprefs
  *.DS_store
+
+# include meta files
+!*.*.meta
  
 # ============================================= #
 # Visual Studio / MonoDevelop / Rider generated #

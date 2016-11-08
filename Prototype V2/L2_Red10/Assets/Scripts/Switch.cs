@@ -24,12 +24,13 @@ public class Switch : NetworkBehaviour
     private void Awake() //Initialise the variable
     {
         inst = this;
-        TacticalCamera.enabled = false;
+        TacticalCamera.enabled = true;
     }
 
     public override void OnStartLocalPlayer()
     {
         firstPerson = GetComponent<Camera>();
+        TacticalCamera = GetComponent<Camera>();
         StartCoroutine(delayedCode());
         TacticalCamera.enabled = true;
         firstPerson.enabled = false;

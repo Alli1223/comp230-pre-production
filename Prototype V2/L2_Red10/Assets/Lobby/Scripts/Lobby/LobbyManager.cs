@@ -347,6 +347,7 @@ namespace Prototype.NetworkLobby
 			}
 
 			if(allready)
+
 				StartCoroutine(ServerCountdownCoroutine());
         }
 
@@ -384,6 +385,9 @@ namespace Prototype.NetworkLobby
                 }
             }
 
+            // Change scene to play scene (whitebox)
+            
+            //Switch.inst.GetTacticalCamera();
             ServerChangeScene(playScene);
         }
 

@@ -21,12 +21,12 @@ public class Shooting : NetworkBehaviour //Adds access to network functionality 
     private Camera firstPerson;
 
     [SerializeField]
-    private float bulletForce = 10f;
-    private float destroyTimer = 3.5f;
+    private float bulletForce = 30f;
+    private float destroyTimer = 6.5f;
 
     void Start()
     {
-        firstPerson = GetComponent<Camera>();
+        //firstPerson = GetComponent<Camera>();
     }
 
     void Update()
