@@ -26,7 +26,7 @@ public class Shooting : NetworkBehaviour //Adds access to network functionality 
 
     void Start()
     {
-        //firstPerson = GetComponent<Camera>();
+        firstPerson = GetComponent<Camera>();
     }
 
     void Update()

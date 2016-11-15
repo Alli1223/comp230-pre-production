@@ -1,0 +1,107 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 965M (ID=0x13d9)
+    Vendor:   NVIDIA
+    VRAM:     2018 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\KDTree.dll (this message is harmless)
+Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\KDTree.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Triangle.dll (this message is harmless)
+Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Triangle.dll into Unity Child Domain
+- Completed reload, in  0.107 seconds
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\System.dll (this message is harmless)
+desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.737354 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 5378 -> priority: 1 
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 386)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 386)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.421358 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1061.
+Total: 1.705418 ms (FindLiveObjects: 0.110232 ms CreateObjectMapping: 0.060062 ms MarkObjects: 1.224212 ms  DeleteObjects: 0.310204 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Switch.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+UnityEngine.Networking.ClientScene:OnObjectSpawn(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkClient:Update()
+UnityEngine.Networking.NetworkClient:UpdateClients()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Switch.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+UnityEngine.Networking.ClientScene:OnObjectSpawn(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkClient:Update()
+UnityEngine.Networking.NetworkClient:UpdateClients()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Switch.OnStartLocalPlayer () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.SetLocalPlayer (Int16 localPlayerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ClientScene.CheckForOwner (UnityEngine.Networking.NetworkIdentity uv) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ClientScene.OnObjectSpawnFinished (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.Update () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.UpdateClients () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Setup.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Failed to spawn server object, assetId=6bf4bf028fb758a4fb12a7a499c67cdb netId=5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+

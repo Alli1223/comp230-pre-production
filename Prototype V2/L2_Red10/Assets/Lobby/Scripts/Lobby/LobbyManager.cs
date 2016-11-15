@@ -386,8 +386,7 @@ namespace Prototype.NetworkLobby
             }
 
             // Change scene to play scene (whitebox)
-            
-            //Switch.inst.GetTacticalCamera();
+            lobbyPanel.sizeDelta = lobbyPanel.sizeDelta - lobbyPanel.sizeDelta;
             ServerChangeScene(playScene);
         }
 
