@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Switch.cs">
+    <Files>
+      <File FileName="Assets\Scripts\UnitPlacement.cs" Line="49" Column="37" />
+      <File FileName="Assets\Scripts\Setup.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Switch.cs" Line="90" Column="6" />
+      <File FileName="Assets\Scripts\UnitManager.cs" Line="53" Column="11" />
+      <File FileName="Assets\Scripts\UniSelect.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SpawnManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TurnManager.cs" Line="34" Column="61" />
+      <File FileName="Assets\Scripts\HealthManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UnitInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Shooting.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CharacterMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraRotate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ClampedMouseLook.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
