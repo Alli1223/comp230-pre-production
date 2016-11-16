@@ -1,0 +1,61 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 965M (ID=0x13d9)
+    Vendor:   NVIDIA
+    VRAM:     2018 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\KDTree.dll (this message is harmless)
+Loading C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\KDTree.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\Triangle.dll (this message is harmless)
+Loading C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\Triangle.dll into Unity Child Domain
+- Completed reload, in  0.061 seconds
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Alastair\Desktop\Lobby11\L2_Red10 - Lobby\Executable\networkTest_Data\Managed\System.dll (this message is harmless)
+desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.751839 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3538 -> priority: 1 
+NetworkLobbyManager no GamePlayer prefab is registered. Please add a GamePlayer prefab.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 386)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 386)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.687968 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1456.
+Total: 1.542190 ms (FindLiveObjects: 0.066775 ms CreateObjectMapping: 0.042396 ms MarkObjects: 1.121753 ms  DeleteObjects: 0.310557 ms)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7891}
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.029049 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1076.
+Total: 2.515201 ms (FindLiveObjects: 0.119064 ms CreateObjectMapping: 0.070308 ms MarkObjects: 1.159910 ms  DeleteObjects: 1.165210 ms)
+
