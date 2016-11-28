@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
-public class UnitPlacement : MonoBehaviour
+public class UnitPlacement : NetworkBehaviour
 {
     public static bool allUnitsPlaced = false;
     [SerializeField]
@@ -46,6 +47,9 @@ public class UnitPlacement : MonoBehaviour
                     if (click.collider.gameObject.tag == "P1Area") //have the floor made of several different components that have different tags so if the player clicks on their area their unit is put down?
                     {
                         Instantiate(player1UnitsToPlace, click.point, Quaternion.identity); //instantiate the player 1 game object
+                        NetworkServer.Spawn(player1UnitsToPlace);
+                        NetworkServer.SpawnObjects();
+                        NetworkServer.DisconnectAll();
                         p1Counter++;
                     }
                  
@@ -56,6 +60,9 @@ public class UnitPlacement : MonoBehaviour
                     if (click.collider.gameObject.tag == "P2Area") //have the floor made of several different components that have different tags so if the player clicks on their area their unit is put down?
                     {
                         Instantiate(player2UnitsToPlace, click.point, Quaternion.identity);
+                        NetworkServer.Spawn(player1UnitsToPlace);
+                        NetworkServer.SpawnObjects();
+                        NetworkServer.DisconnectAll();
                         p2Counter++;
                     }
 

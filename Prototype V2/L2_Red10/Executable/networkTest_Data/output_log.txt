@@ -24,60 +24,16 @@ Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Pro
 Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\pb_Stl.dll into Unity Child Domain
 Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Triangle.dll (this message is harmless)
 Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Triangle.dll into Unity Child Domain
-- Completed reload, in  0.052 seconds
+- Completed reload, in  0.065 seconds
 Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\System.dll (this message is harmless)
 desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.086070 ms
+UnloadTime: 1.216440 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1cb0 -> priority: 1 
-Initialize engine version: 5.4.1f1 (649f48bbbf0f)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 965M (ID=0x13d9)
-    Vendor:   NVIDIA
-    VRAM:     2018 MB
-Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
-Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
-Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\KDTree.dll (this message is harmless)
-Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\KDTree.dll into Unity Child Domain
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\pb_Stl.dll (this message is harmless)
-Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\pb_Stl.dll into Unity Child Domain
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Triangle.dll (this message is harmless)
-Loading C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\Triangle.dll into Unity Child Domain
-- Completed reload, in  0.059 seconds
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Alastair\Documents\GitHub\comp230-pre-production\Prototype V2\L2_Red10\Executable\networkTest_Data\Managed\System.dll (this message is harmless)
-desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
-<RI> Initializing input.
-<RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 0.733115 ms
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 4440 -> priority: 1 
-DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
- 
-(Filename:  Line: 386)
-
-DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
- 
-(Filename:  Line: 386)
-
+  Thread -> id: 5864 -> priority: 1 
 DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
  
 (Filename:  Line: 386)
@@ -87,77 +43,10 @@ DontDestroyOnLoad only work for root GameObjects or components on root GameObjec
 (Filename:  Line: 386)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.406385 ms
-UnloadTime: 1.991954 ms
-NullReferenceException: Object reference not set to an instance of an object
-  at Switch.Awake () [0x00000] in <filename unknown>:0 
-UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
-UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
-UnityEngine.Networking.NetworkLobbyManager:SceneLoadedForPlayer(NetworkConnection, GameObject)
-UnityEngine.Networking.NetworkLobbyManager:OnServerSceneLoadedMessage(NetworkMessage)
-UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32)
-UnityEngine.Networking.NetworkServer:InvokeHandlerOnServer(ULocalConnectionToServer, Int16, MessageBase, Int32)
-UnityEngine.Networking.ULocalConnectionToServer:Send(Int16, MessageBase)
-UnityEngine.Networking.NetworkClient:Send(Int16, MessageBase)
-UnityEngine.Networking.NetworkLobbyPlayer:SendSceneLoadedMessage()
-UnityEngine.Networking.NetworkLobbyPlayer:OnSceneLoaded(Scene, LoadSceneMode)
-UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded(Scene, LoadSceneMode)
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Switch.OnStartLocalPlayer () [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkIdentity.SetLocalPlayer (Int16 localPlayerControllerId) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkServer.SetupLocalPlayerForConnection (UnityEngine.Networking.NetworkConnection conn, UnityEngine.Networking.NetworkIdentity uv, UnityEngine.Networking.PlayerController newPlayerController) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkServer.InternalReplacePlayerForConnection (UnityEngine.Networking.NetworkConnection conn, UnityEngine.GameObject playerGameObject, Int16 playerControllerId) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkServer.ReplacePlayerForConnection (UnityEngine.Networking.NetworkConnection conn, UnityEngine.GameObject player, Int16 playerControllerId) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkLobbyManager.SceneLoadedForPlayer (UnityEngine.Networking.NetworkConnection conn, UnityEngine.GameObject lobbyPlayerGameObject) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkLobbyManager.OnServerSceneLoadedMessage (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkConnection.InvokeHandler (Int16 msgType, UnityEngine.Networking.NetworkReader reader, Int32 channelId) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkServer.InvokeHandlerOnServer (UnityEngine.Networking.ULocalConnectionToServer conn, Int16 msgType, UnityEngine.Networking.MessageBase msg, Int32 channelId) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.ULocalConnectionToServer.Send (Int16 msgType, UnityEngine.Networking.MessageBase msg) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkClient.Send (Int16 msgType, UnityEngine.Networking.MessageBase msg) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkLobbyPlayer.SendSceneLoadedMessage () [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkLobbyPlayer.OnSceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
-  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Switch.Awake () [0x00000] in <filename unknown>:0 
-UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
-UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
-UnityEngine.Networking.NetworkLobbyManager:SceneLoadedForPlayer(NetworkConnection, GameObject)
-UnityEngine.Networking.NetworkLobbyManager:OnServerSceneLoadedMessage(NetworkMessage)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
-UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
-UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
-UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
-UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
-UnityEngine.Networking.NetworkServerSimple:Update()
-UnityEngine.Networking.NetworkServer:InternalUpdate()
-UnityEngine.Networking.NetworkServer:Update()
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Setup.Start () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1123.
-Total: 1.711074 ms (FindLiveObjects: 0.087267 ms CreateObjectMapping: 0.033211 ms MarkObjects: 1.233753 ms  DeleteObjects: 0.356488 ms)
-
+UnloadTime: 2.194398 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1061.
-Total: 1.876775 ms (FindLiveObjects: 0.083380 ms CreateObjectMapping: 0.039217 ms MarkObjects: 1.337980 ms  DeleteObjects: 0.415491 ms)
+Total: 1.069817 ms (FindLiveObjects: 0.051583 ms CreateObjectMapping: 0.022965 ms MarkObjects: 0.762086 ms  DeleteObjects: 0.232830 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at Switch.Awake () [0x00000] in <filename unknown>:0 
@@ -216,3 +105,43 @@ Failed to spawn server object, assetId=6bf4bf028fb758a4fb12a7a499c67cdb netId=5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.845466 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 974.
+Total: 1.862994 ms (FindLiveObjects: 0.022965 ms CreateObjectMapping: 0.035330 ms MarkObjects: 0.810489 ms  DeleteObjects: 0.994209 ms)
+
+Log: cannot connect after 10 attempt address {::ffff:127.0.0.1:7891}

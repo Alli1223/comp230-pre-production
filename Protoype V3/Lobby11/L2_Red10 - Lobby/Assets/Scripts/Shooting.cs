@@ -33,7 +33,7 @@ public class Shooting : NetworkBehaviour //Adds access to network functionality 
     {
         if (Input.GetMouseButtonDown(0)) //Handles calling the function to shoot 
         {
-            CmdShooting();
+            //CmdShooting();
         }
        
     }

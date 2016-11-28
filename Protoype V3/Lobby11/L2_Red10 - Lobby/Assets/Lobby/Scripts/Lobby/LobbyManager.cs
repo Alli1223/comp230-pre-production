@@ -34,6 +34,8 @@ namespace Prototype.NetworkLobby
 
         //Map Selection GUI
         public RectTransform mapSelectionPanel;
+
+        //Stores the value that the player chooses
         public int mapSelection = 0;
 
         public LobbyInfoPanel infoPanel;

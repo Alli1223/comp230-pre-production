@@ -46,7 +46,7 @@ public class CharacterMovement : NetworkBehaviour
     {
         if (UI.GetInfo("energy") > 0)
         {
-            if (control.isGrounded /* && canMove == true*/)
+            if (control.isGrounded  && canMove == true)
             {
                 //direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
                 direction = new Vector3(0, 0, 0);
