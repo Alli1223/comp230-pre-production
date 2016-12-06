@@ -1,0 +1,8 @@
+\frametitle{Code listing}
+\begin{lstlisting}[language=Python]
+		a = 0
+		for i in xrange(10):
+			a += i
+
+		print a
+	\end{lstlisting}
