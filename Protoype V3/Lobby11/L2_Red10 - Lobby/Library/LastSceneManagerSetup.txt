@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LobbyScene.unity
+- path: Assets/Scenes/MapOne.unity
   isLoaded: 1
   isActive: 1
